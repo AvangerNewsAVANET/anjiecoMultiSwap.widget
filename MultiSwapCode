@@ -1,0 +1,51 @@
+<script>
+window.anjiSwapLiteOptions = {
+  "network": "avax",
+  "theme": "dark",
+  "default_buy_tokens": {
+    "avax": "0x246A08a58549E14D0Fcb24D7E9227661EdE807A8"
+  },
+  "supported_networks": [
+    "avax"
+  ],
+  "custom_tokens": {
+    "avax": [
+      {
+        "name": "AvangerNews",
+        "symbol": "AVANET",
+        "logo": "https://raw.githubusercontent.com/AvangerNewsAVANET/Photo/main/200x200.png",
+        "decimals": 18,
+        "address": "0x246A08a58549E14D0Fcb24D7E9227661EdE807A8",
+        "pair_address": "0x4fb81Db5349D4B418Cb6EC4d3773C012d10e0Fad",
+        "pair_token_address": "0xB31f66AA3C1e785363F0875A1B74E27b85FD66c7",
+        "slippage": "1",
+        "sell_slip": "1"
+      },
+      {
+        "name": "StakedAVANET",
+        "symbol": "sAVANET",
+        "logo": "https://raw.githubusercontent.com/AvangerNewsAVANET/Photo/main/200x200savanet.png",
+        "decimals": 18,
+        "address": "0x0c40f5d254bf89499198A38f058B376D895A0c9a",
+        "pair_address": "0x995364F5bcd7b81D8C68b02c11c91d9b2B436614",
+        "pair_token_address": "0xB31f66AA3C1e785363F0875A1B74E27b85FD66c7",
+        "slippage": "1",
+        "sell_slip": "1"
+      },
+      {
+        "name": "Staked AVAX",
+        "symbol": "sAVAX",
+        "logo": "https://static.coincost.net/logo/cryptocurrency/benqi-liquid-staked-avax.png",
+        "decimals": 18,
+        "address": "0x2b2C81e08f1Af8835a78Bb2A90AE924ACE0eA4bE",
+        "pair_address": "0x4b946c91C2B1a7d7C40FB3C130CdfBaf8389094d",
+        "pair_token_address": "0xB31f66AA3C1e785363F0875A1B74E27b85FD66c7",
+        "slippage": "1",
+        "sell_slip": "1"
+      }
+    ]
+  }
+};
+</script>
+<anji-swap-lite></anji-swap-lite>
+<script src="https://d1kgr870rn4qpv.cloudfront.net/lite/anjiswap-lite.js"></script>
